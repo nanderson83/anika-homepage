@@ -16,7 +16,6 @@
 @import 'normalize';
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import "bootstrap_overide.css.scss";
 
 $background-color: white;
 
@@ -24,6 +23,12 @@ html, body {
   width: auto;
   overflow-x: hidden;
   background-color: $background-color;
+}
+
+#bootstrap-override nav {
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 #splash-banner {

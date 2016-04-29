@@ -9,9 +9,24 @@
   <!-- bootstrap stuff -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body id="bootstrap-override">
 <div class="container-fluid">
 
+<nav class="navbar navbar-default" id="nav-top">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <a href="#" class="navbar-brand">Under Construction Professional Development Services</a>
+    </div>
+
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="active"><a href="#">About</a></li>
+      <li class="active"><a href="#">Services</a></li>
+    </ul>
+
+  </div>
+</nav> 
 <%= yield %>
 
 </div>
