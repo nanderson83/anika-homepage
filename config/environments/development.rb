@@ -32,7 +32,7 @@ Rails.application.configure do
   config.assets.digest = true
 
   # precompile assets locally for pushing to heroku
-  config.assets.prefix = "/dev-assets"
+  # config.assets.prefix = "/dev-assets"
 
   # Adds additional error checking when serving assets at runtime.
   # Checks for improperly declared sprockets dependencies.
