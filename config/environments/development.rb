@@ -31,12 +31,9 @@ Rails.application.configure do
   # yet still be able to expire them through the digest params.
   config.assets.digest = true
 
-<<<<<<< HEAD
   # precompile assets locally for pushing to heroku
   # config.assets.prefix = "/dev-assets"
 
-=======
->>>>>>> parent of 8f547f0... change config files to precompile locally
   # Adds additional error checking when serving assets at runtime.
   # Checks for improperly declared sprockets dependencies.
   # Raises helpful error messages.
