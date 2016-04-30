@@ -8,9 +8,12 @@ Bundler.require(*Rails.groups)
 
 module AnikaHomepage
   class Application < Rails::Application
+<<<<<<< HEAD
     # allows local precompilation
     config.serve_static_assets = true
 
+=======
+>>>>>>> parent of 8f547f0... change config files to precompile locally
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
