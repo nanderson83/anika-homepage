@@ -15,3 +15,9 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function () {
+  $("#navbar ul.navbar-nav li a").click(function(event) {
+    $(".collapse").collapse('hide');
+  });
+});
