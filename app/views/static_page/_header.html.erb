@@ -1,27 +1,24 @@
-<nav class="navbar navbar-default" id="nav-top">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
-    
+
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse-content">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                  
-      </button>
-      <a href="#" class="navbar-brand">Under Construction</a>
+      <div id="nav-hamburger">
+        <button type="button" class="navbar-toggle collapsed" id="nav-hamburger" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Build Your Strength</a>
+      </div>
     </div>
 
-    <div class="collapse navbar-collapse" id="collapse-content">
+    <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Home</a></li>
-        <li class="active"><a href="#">About</a></li>
-        <li class="active"><a href="#">Services</a></li>
+        <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#ceo-message">About</a></li>
+        <li><a href="#">Services</a></li>
       </ul>
-    </div>
-
-    <div class="right-padding-holder">
-      
-    </div>
-
-  </div>
-</nav> 
+    </div><!--/.nav-collapse -->
+  </div><!--/.container-fluid -->
+</nav>
